@@ -43,15 +43,15 @@ const CartSummary = () => {
       key: "rzp_test_1DP5mmOlF5G5ag",
       amount: total * 100,
       currency: "INR",
-      name: "Haripriya Store",
+      name: "sriyavanama Store",
       description: "E-Commerce Test Payment",
       handler: () => {
         alert("Payment successful!");
         handlePostPayment();
       },
       prefill: {
-        name: "Haripriya",
-        email: "hari@example.com",
+        name: "sriyavanama",
+        email: "sriya@example.com",
         contact: "9999999999",
       },
       notes: {

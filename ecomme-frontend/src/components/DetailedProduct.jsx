@@ -29,14 +29,14 @@ const DetailedProduct = () => {
       key: "rzp_test_1DP5mmOlF5G5ag",
       amount: Number(pcost) * quantity * 100,
       currency: "INR",
-      name: "Haripriya E-Commerce",
+      name: "sriyavanama E-Commerce",
       description: `Buying ${pname}`,
       handler: function (response) {
         alert("✅ Payment Successful!\nID: " + response.razorpay_payment_id);
       },
       prefill: {
-        name: "Haripriya",
-        email: "hpd@gmail.com",
+        name: "sriyavanama",
+        email: "sriya@gmail.com",
         contact: "9000000000",
       },
       theme: {

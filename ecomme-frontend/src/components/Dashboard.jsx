@@ -57,7 +57,7 @@ const Dashboard = () => {
       <main className="dashboard-content">
         {isAtDashboardRoot ? (
           <div className="welcome-container">
-            <h1>🛍️ Welcome to Haripriya Store!</h1>
+            <h1>🛍️ Welcome to sriyavanama Store!</h1>
             <p>Select a category from the left to start shopping.</p>
             <img
               src="https://cdn-icons-png.flaticon.com/512/891/891419.png"
